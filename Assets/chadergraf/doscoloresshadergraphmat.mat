@@ -58,7 +58,9 @@ Material:
     - _QueueControl: 0
     - _QueueOffset: 0
     - _Remap: 1
-    - _addPosition: 0.12
+    - _addPosition: -0.07
+    - _addposicioninferior: 0.75
+    - _amplitud: 0.19
     - _fade: 0
     m_Colors:
     - _Remap: {r: -6.4, g: 5.95, b: 0, a: 0}
