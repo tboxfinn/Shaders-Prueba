@@ -7,8 +7,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: NieveSDG
-  m_Shader: {fileID: -6465566751694194690, guid: 69df24a760693c84f85821c7e19015a3, type: 3}
+  m_Name: NieveSDG 1
+  m_Shader: {fileID: -6465566751694194690, guid: 7e7acf99fba73dc44a1c0667a635188c, type: 3}
   m_ValidKeywords: []
   m_InvalidKeywords: []
   m_LightmapFlags: 2
