@@ -1,16 +1,24 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Unity.UI;
+using UnityEngine.UI;
 
 public class jugadorMov : MonoBehaviour
 {
-    Rigidbody rigidbody;
-     public float playerspeed=111;
-      public float rotationlerpspeed=.2f;
+    public Rigidbody rigidbody;
+    public float playerspeed=111;
+    public float rotationlerpspeed=.2f;
+    public GameObject CanvasNieve;
+    public bool CanvasActivado;
+    public RawImage imagen;
+    public Material materialSG;
+
     // Start is called before the first frame update
     void Start()
     {
         rigidbody = GetComponent<Rigidbody>();
+        
     }
 
     // Update is called once per frame
@@ -30,11 +38,18 @@ public class jugadorMov : MonoBehaviour
         move.z = 1;
      }   
 
-      if(Input.GetKey(KeyCode.R)){
-          //  attack1();
+      if (Input.GetKeyDown(KeyCode.R))
+      {
+            //  attack1();
+            materialSG.SetFloat("_Power", 100);
       }
+      if (Input.GetKeyDown(KeyCode.T))
+      {
+            //  attack1();
+            materialSG.SetFloat("_Power", 4000);
+        }
 
- move.Normalize();
+        move.Normalize();
 
 //MOVMIENTO
      //transform.position += move * playerspeed*Time.deltaTime;
