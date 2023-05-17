@@ -67,7 +67,11 @@
             "m_Id": "976a64fd215b414e861d9be825768c90"
         }
     ],
-    "m_GroupDatas": [],
+    "m_GroupDatas": [
+        {
+            "m_Id": "33104cdc80c143dcad296db25402879c"
+        }
+    ],
     "m_StickyNoteDatas": [],
     "m_Edges": [
         {
@@ -261,7 +265,7 @@
     "m_Type": "UnityEditor.ShaderGraph.OneMinusNode",
     "m_ObjectId": "0c88237f0bd44c2989daa63eec1c2f89",
     "m_Group": {
-        "m_Id": ""
+        "m_Id": "33104cdc80c143dcad296db25402879c"
     },
     "m_Name": "One Minus",
     "m_DrawState": {
@@ -519,10 +523,21 @@
 
 {
     "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.GroupData",
+    "m_ObjectId": "33104cdc80c143dcad296db25402879c",
+    "m_Title": "OJO SI ALGUIEN TIENE ESTO ME LO COPIO, ESTO ESTA HECHO POR HUGO",
+    "m_Position": {
+        "x": 10.0,
+        "y": 10.0
+    }
+}
+
+{
+    "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.UVNode",
     "m_ObjectId": "3bcfc374e8ea4fe69da78d1356c5c93d",
     "m_Group": {
-        "m_Id": ""
+        "m_Id": "33104cdc80c143dcad296db25402879c"
     },
     "m_Name": "UV",
     "m_DrawState": {
@@ -647,7 +662,7 @@
     "m_Type": "UnityEditor.ShaderGraph.MultiplyNode",
     "m_ObjectId": "4e27e48759a2432ba9b74208aa5bd5b0",
     "m_Group": {
-        "m_Id": ""
+        "m_Id": "33104cdc80c143dcad296db25402879c"
     },
     "m_Name": "Multiply",
     "m_DrawState": {
@@ -998,7 +1013,7 @@
     "m_Type": "UnityEditor.ShaderGraph.PropertyNode",
     "m_ObjectId": "976a64fd215b414e861d9be825768c90",
     "m_Group": {
-        "m_Id": ""
+        "m_Id": "33104cdc80c143dcad296db25402879c"
     },
     "m_Name": "Property",
     "m_DrawState": {
@@ -1033,7 +1048,7 @@
     "m_Type": "UnityEditor.ShaderGraph.PowerNode",
     "m_ObjectId": "9ac54e08003e42899a928c7315e8212e",
     "m_Group": {
-        "m_Id": ""
+        "m_Id": "33104cdc80c143dcad296db25402879c"
     },
     "m_Name": "Power",
     "m_DrawState": {
@@ -1152,7 +1167,7 @@
     "m_Type": "UnityEditor.ShaderGraph.SplitNode",
     "m_ObjectId": "b449e22b497745ff99b4a6c1f6a16014",
     "m_Group": {
-        "m_Id": ""
+        "m_Id": "33104cdc80c143dcad296db25402879c"
     },
     "m_Name": "Split",
     "m_DrawState": {
@@ -1308,7 +1323,7 @@
     "m_Type": "UnityEditor.ShaderGraph.PropertyNode",
     "m_ObjectId": "d6502fbad1b84b08bc09e27292b3af8e",
     "m_Group": {
-        "m_Id": ""
+        "m_Id": "33104cdc80c143dcad296db25402879c"
     },
     "m_Name": "Property",
     "m_DrawState": {
