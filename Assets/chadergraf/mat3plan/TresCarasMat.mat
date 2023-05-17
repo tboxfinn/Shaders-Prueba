@@ -20,7 +20,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: mattriplan
+  m_Name: TresCarasMat
   m_Shader: {fileID: -6465566751694194690, guid: a9d5eee1a1a71be41be3598e5e0a2277, type: 3}
   m_ValidKeywords: []
   m_InvalidKeywords: []
@@ -28,7 +28,8 @@ Material:
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: -1
-  stringTagMap: {}
+  stringTagMap:
+    RenderType: Opaque
   disabledShaderPasses: []
   m_SavedProperties:
     serializedVersion: 3
@@ -74,15 +75,15 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _SampleTexture2D_14cd3f9254744afca45133a4f65ec872_Texture_1:
-        m_Texture: {fileID: 2800000, guid: 20f7795319fc40e42b9cf0909120dab3, type: 3}
+        m_Texture: {fileID: 2800000, guid: a6bda0d327ab39047a78a5a65f28ea44, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _SampleTexture2D_768cf45900034939bbc130bd6de31963_Texture_1:
-        m_Texture: {fileID: 2800000, guid: 29aa4dd62e34cc74f8252dd380a8d0ad, type: 3}
+        m_Texture: {fileID: 2800000, guid: 4306e37773546c342aa257ff8ce56292, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _SampleTexture2D_e6ebc30b514c497cb8b790cdd42b6884_Texture_1:
-        m_Texture: {fileID: 2800000, guid: f353ddcb71f4a8f4596fcd546b878aeb, type: 3}
+        m_Texture: {fileID: 2800000, guid: 4306e37773546c342aa257ff8ce56292, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _SpecGlossMap:
@@ -106,6 +107,7 @@ Material:
     - _AlphaClip: 0
     - _Blend: 0
     - _BumpScale: 1
+    - _CastShadows: 1
     - _ClearCoatMask: 0
     - _ClearCoatSmoothness: 0
     - _Cull: 2
@@ -130,11 +132,15 @@ Material:
     - _Surface: 0
     - _TRANCITION: 0.5
     - _WorkflowMode: 1
+    - _ZTest: 4
     - _ZWrite: 1
+    - _ZWriteControl: 0
+    - _transicion: 0.5
     m_Colors:
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
-    - _MULTIPLY_TEXT: {r: 0.1, g: 0.1, b: 0, a: 0}
+    - _MULTIPLY_TEXT: {r: 0.03, g: 0.03, b: 0, a: 0}
+    - _Multiply_Texture: {r: 0.03, g: 0.03, b: 0, a: 0}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
   m_BuildTextureStacks: []
